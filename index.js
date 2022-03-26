@@ -43,7 +43,7 @@ app.get('/user', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'index.html'));
 })
 
-const CONNECTION_URL = 'mongodb+srv://voldemort:voldemort@cluster0.zwa5u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'boom';
 
 app.post('/post', (req, res) => {
   const { title, imageUrl, desc, channel, tag, } = req.body; 
